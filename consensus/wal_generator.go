@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	db "github.com/cometbft/cometbft-db"
+	db "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/privval"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/abci/example/kvstore"
+	cfg "github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	"github.com/badrootd/nibiru-cometbft/privval"
+	"github.com/badrootd/nibiru-cometbft/proxy"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	"github.com/badrootd/nibiru-cometbft/store"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // WALGenerateNBlocks generates a consensus WAL. It does this by spinning up a

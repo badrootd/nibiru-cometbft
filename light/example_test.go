@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/light"
-	"github.com/cometbft/cometbft/light/provider"
-	httpp "github.com/cometbft/cometbft/light/provider/http"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
+	"github.com/badrootd/nibiru-cometbft/abci/example/kvstore"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/light"
+	"github.com/badrootd/nibiru-cometbft/light/provider"
+	httpp "github.com/badrootd/nibiru-cometbft/light/provider/http"
+	dbs "github.com/badrootd/nibiru-cometbft/light/store/db"
+	rpctest "github.com/badrootd/nibiru-cometbft/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

@@ -3,10 +3,10 @@ package mock
 import (
 	"net"
 
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/badrootd/nibiru-cometbft/crypto/ed25519"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	"github.com/badrootd/nibiru-cometbft/p2p/conn"
 )
 
 type Peer struct {

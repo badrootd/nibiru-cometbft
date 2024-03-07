@@ -3,8 +3,8 @@ package test
 import (
 	"time"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/types"
+	cfg "github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 func GenesisDoc(

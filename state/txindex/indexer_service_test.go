@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	db "github.com/cometbft/cometbft-db"
+	db "github.com/badrootd/nibiru-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	blockidxkv "github.com/cometbft/cometbft/state/indexer/block/kv"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/state/txindex/kv"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	blockidxkv "github.com/badrootd/nibiru-cometbft/state/indexer/block/kv"
+	"github.com/badrootd/nibiru-cometbft/state/txindex"
+	"github.com/badrootd/nibiru-cometbft/state/txindex/kv"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

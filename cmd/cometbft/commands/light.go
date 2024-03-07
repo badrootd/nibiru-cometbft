@@ -13,16 +13,16 @@ import (
 
 	"github.com/spf13/cobra"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/light"
-	lproxy "github.com/cometbft/cometbft/light/proxy"
-	lrpc "github.com/cometbft/cometbft/light/rpc"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	rpcserver "github.com/cometbft/cometbft/rpc/jsonrpc/server"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
+	"github.com/badrootd/nibiru-cometbft/light"
+	lproxy "github.com/badrootd/nibiru-cometbft/light/proxy"
+	lrpc "github.com/badrootd/nibiru-cometbft/light/rpc"
+	dbs "github.com/badrootd/nibiru-cometbft/light/store/db"
+	rpcserver "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/server"
 )
 
 // LightCmd represents the base command when called without any subcommands

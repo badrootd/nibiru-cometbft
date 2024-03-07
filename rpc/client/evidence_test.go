@@ -9,16 +9,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/rpc/client"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/crypto/ed25519"
+	cryptoenc "github.com/badrootd/nibiru-cometbft/crypto/encoding"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	"github.com/badrootd/nibiru-cometbft/privval"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/rpc/client"
+	rpctest "github.com/badrootd/nibiru-cometbft/rpc/test"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // For some reason the empty node used in tests has a time of

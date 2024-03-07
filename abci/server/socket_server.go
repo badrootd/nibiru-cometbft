@@ -8,11 +8,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtlog "github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtlog "github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtnet "github.com/badrootd/nibiru-cometbft/libs/net"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
 )
 
 // var maxNumberConnections = 2

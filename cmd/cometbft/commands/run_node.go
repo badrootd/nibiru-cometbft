@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	nm "github.com/cometbft/cometbft/node"
+	cfg "github.com/badrootd/nibiru-cometbft/config"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
+	nm "github.com/badrootd/nibiru-cometbft/node"
 )
 
 var (

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	clist "github.com/cometbft/cometbft/libs/clist"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	clist "github.com/badrootd/nibiru-cometbft/libs/clist"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 	"github.com/cosmos/gogoproto/proto"
 )
 

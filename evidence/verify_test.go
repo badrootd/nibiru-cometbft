@@ -8,19 +8,19 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/evidence"
-	"github.com/cometbft/cometbft/evidence/mocks"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	sm "github.com/cometbft/cometbft/state"
-	smmocks "github.com/cometbft/cometbft/state/mocks"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	"github.com/badrootd/nibiru-cometbft/evidence"
+	"github.com/badrootd/nibiru-cometbft/evidence/mocks"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	cmtversion "github.com/badrootd/nibiru-cometbft/proto/tendermint/version"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	smmocks "github.com/badrootd/nibiru-cometbft/state/mocks"
+	"github.com/badrootd/nibiru-cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 const (

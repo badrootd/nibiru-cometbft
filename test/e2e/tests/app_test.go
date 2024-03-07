@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/types"
+	e2e "github.com/badrootd/nibiru-cometbft/test/e2e/pkg"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // Tests that any initial state given in genesis has made it into the app.

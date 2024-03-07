@@ -11,17 +11,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/example/code"
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/abci/server"
-	servertest "github.com/cometbft/cometbft/abci/tests/server"
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/abci/version"
-	"github.com/cometbft/cometbft/proto/tendermint/crypto"
+	abcicli "github.com/badrootd/nibiru-cometbft/abci/client"
+	"github.com/badrootd/nibiru-cometbft/abci/example/code"
+	"github.com/badrootd/nibiru-cometbft/abci/example/kvstore"
+	"github.com/badrootd/nibiru-cometbft/abci/server"
+	servertest "github.com/badrootd/nibiru-cometbft/abci/tests/server"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/abci/version"
+	"github.com/badrootd/nibiru-cometbft/proto/tendermint/crypto"
 )
 
 // client is a global variable so it can be reused by the console

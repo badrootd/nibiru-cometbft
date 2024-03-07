@@ -7,14 +7,14 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
+	cmtstate "github.com/badrootd/nibiru-cometbft/proto/tendermint/state"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 const (
@@ -79,7 +79,7 @@ type Store interface {
 	Close() error
 }
 
-// dbStore wraps a db (github.com/cometbft/cometbft-db)
+// dbStore wraps a db (github.com/badrootd/nibiru-db)
 type dbStore struct {
 	db dbm.DB
 

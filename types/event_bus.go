@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtpubsub "github.com/badrootd/nibiru-cometbft/libs/pubsub"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
 )
 
 const defaultCapacity = 0

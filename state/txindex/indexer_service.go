@@ -3,9 +3,9 @@ package txindex
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/state/indexer"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // XXX/TODO: These types should be moved to the indexer package.

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtstrings "github.com/cometbft/cometbft/libs/strings"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
-	"github.com/cometbft/cometbft/version"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtstrings "github.com/badrootd/nibiru-cometbft/libs/strings"
+	tmp2p "github.com/badrootd/nibiru-cometbft/proto/tendermint/p2p"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 const (

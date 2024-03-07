@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/fail"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/mempool"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	cryptoenc "github.com/badrootd/nibiru-cometbft/crypto/encoding"
+	"github.com/badrootd/nibiru-cometbft/libs/fail"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/mempool"
+	cmtstate "github.com/badrootd/nibiru-cometbft/proto/tendermint/state"
+	"github.com/badrootd/nibiru-cometbft/proxy"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 //-----------------------------------------------------------------------------

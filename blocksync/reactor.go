@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	bcproto "github.com/cometbft/cometbft/proto/tendermint/blocksync"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	bcproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/blocksync"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	"github.com/badrootd/nibiru-cometbft/store"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 const (

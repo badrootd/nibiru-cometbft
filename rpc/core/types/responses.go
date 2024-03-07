@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/libs/bytes"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // List of blocks

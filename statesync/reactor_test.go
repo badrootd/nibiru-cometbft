@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/p2p"
-	p2pmocks "github.com/cometbft/cometbft/p2p/mocks"
-	ssproto "github.com/cometbft/cometbft/proto/tendermint/statesync"
-	proxymocks "github.com/cometbft/cometbft/proxy/mocks"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	p2pmocks "github.com/badrootd/nibiru-cometbft/p2p/mocks"
+	ssproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/statesync"
+	proxymocks "github.com/badrootd/nibiru-cometbft/proxy/mocks"
 )
 
 func TestReactor_Receive_ChunkRequest(t *testing.T) {

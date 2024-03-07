@@ -1,13 +1,13 @@
 package proxy
 
 import (
-	"github.com/cometbft/cometbft/libs/bytes"
-	lrpc "github.com/cometbft/cometbft/light/rpc"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpcserver "github.com/cometbft/cometbft/rpc/jsonrpc/server"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/libs/bytes"
+	lrpc "github.com/badrootd/nibiru-cometbft/light/rpc"
+	rpcclient "github.com/badrootd/nibiru-cometbft/rpc/client"
+	ctypes "github.com/badrootd/nibiru-cometbft/rpc/core/types"
+	rpcserver "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/server"
+	rpctypes "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 func RPCRoutes(c *lrpc.Client) map[string]*rpcserver.RPCFunc {

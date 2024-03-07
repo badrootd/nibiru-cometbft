@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/light/provider/http"
-	"github.com/cometbft/cometbft/light/store"
+	"github.com/badrootd/nibiru-cometbft/light/provider"
+	"github.com/badrootd/nibiru-cometbft/light/provider/http"
+	"github.com/badrootd/nibiru-cometbft/light/store"
 )
 
 // NewHTTPClient initiates an instance of a light client using HTTP addresses

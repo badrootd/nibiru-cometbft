@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 func TestTxFilter(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	cmtflags "github.com/cometbft/cometbft/libs/cli/flags"
-	"github.com/cometbft/cometbft/libs/log"
+	cmtflags "github.com/badrootd/nibiru-cometbft/libs/cli/flags"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
 )
 
 const (

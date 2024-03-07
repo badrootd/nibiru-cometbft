@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
+	"github.com/badrootd/nibiru-cometbft/abci/example/kvstore"
+	rpchttp "github.com/badrootd/nibiru-cometbft/rpc/client/http"
+	ctypes "github.com/badrootd/nibiru-cometbft/rpc/core/types"
+	rpctest "github.com/badrootd/nibiru-cometbft/rpc/test"
 )
 
 func ExampleHTTP_simple() {

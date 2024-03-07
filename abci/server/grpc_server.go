@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtnet "github.com/badrootd/nibiru-cometbft/libs/net"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
 )
 
 type GRPCServer struct {

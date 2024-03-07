@@ -10,13 +10,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	db "github.com/cometbft/cometbft-db"
+	db "github.com/badrootd/nibiru-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/libs/pubsub/query"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	"github.com/badrootd/nibiru-cometbft/state/txindex"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 func TestBigInt(t *testing.T) {

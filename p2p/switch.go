@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/libs/cmap"
+	"github.com/badrootd/nibiru-cometbft/libs/rand"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/p2p/conn"
 	"github.com/cosmos/gogoproto/proto"
 )
 

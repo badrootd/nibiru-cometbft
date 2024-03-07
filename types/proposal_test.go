@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	"github.com/badrootd/nibiru-cometbft/libs/protoio"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
 )
 
 var (

@@ -9,11 +9,11 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
-	"github.com/cometbft/cometbft/version"
+	cmtstate "github.com/badrootd/nibiru-cometbft/proto/tendermint/state"
+	cmtversion "github.com/badrootd/nibiru-cometbft/proto/tendermint/version"
+	"github.com/badrootd/nibiru-cometbft/types"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 // database keys

@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	jsonrpcclient "github.com/cometbft/cometbft/rpc/jsonrpc/client"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtpubsub "github.com/badrootd/nibiru-cometbft/libs/pubsub"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	rpcclient "github.com/badrootd/nibiru-cometbft/rpc/client"
+	ctypes "github.com/badrootd/nibiru-cometbft/rpc/core/types"
+	jsonrpcclient "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/client"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 /*

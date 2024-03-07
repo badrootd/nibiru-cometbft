@@ -3,7 +3,7 @@ package statesync
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/p2p"
+	"github.com/badrootd/nibiru-cometbft/p2p"
 	"github.com/cosmos/gogoproto/proto"
 )
 

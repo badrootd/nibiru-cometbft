@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/libs/bits"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
 )
 
 const (

@@ -8,14 +8,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/example/code"
-	abciserver "github.com/cometbft/cometbft/abci/server"
-	"github.com/cometbft/cometbft/abci/types"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	abcicli "github.com/badrootd/nibiru-cometbft/abci/client"
+	"github.com/badrootd/nibiru-cometbft/abci/example/code"
+	abciserver "github.com/badrootd/nibiru-cometbft/abci/server"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
 )
 
 const (

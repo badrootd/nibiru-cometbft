@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	cmtpubsub "github.com/badrootd/nibiru-cometbft/libs/pubsub"
+	cmtquery "github.com/badrootd/nibiru-cometbft/libs/pubsub/query"
+	ctypes "github.com/badrootd/nibiru-cometbft/rpc/core/types"
+	rpctypes "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/types"
 )
 
 const (

@@ -6,16 +6,16 @@ import (
 	"sync"
 	"sync/atomic"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/clist"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/libs/clist"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	"github.com/badrootd/nibiru-cometbft/mempool"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	"github.com/badrootd/nibiru-cometbft/proxy"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // CListMempool is an ordered in-memory pool for transactions before they are

@@ -9,15 +9,15 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	abcitypes "github.com/cometbft/cometbft/abci/types"
-	cmtcfg "github.com/cometbft/cometbft/config"
-	protocmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	blockmocks "github.com/cometbft/cometbft/state/indexer/mocks"
-	"github.com/cometbft/cometbft/state/mocks"
-	txmocks "github.com/cometbft/cometbft/state/txindex/mocks"
-	"github.com/cometbft/cometbft/types"
+	abcitypes "github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtcfg "github.com/badrootd/nibiru-cometbft/config"
+	protocmtstate "github.com/badrootd/nibiru-cometbft/proto/tendermint/state"
+	blockmocks "github.com/badrootd/nibiru-cometbft/state/indexer/mocks"
+	"github.com/badrootd/nibiru-cometbft/state/mocks"
+	txmocks "github.com/badrootd/nibiru-cometbft/state/txindex/mocks"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 const (

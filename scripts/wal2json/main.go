@@ -12,8 +12,8 @@ import (
 	"io"
 	"os"
 
-	cs "github.com/cometbft/cometbft/consensus"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
+	cs "github.com/badrootd/nibiru-cometbft/consensus"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
 )
 
 func main() {

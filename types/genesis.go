@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
 )
 
 const (

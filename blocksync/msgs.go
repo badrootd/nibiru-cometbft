@@ -6,8 +6,8 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	bcproto "github.com/cometbft/cometbft/proto/tendermint/blocksync"
-	"github.com/cometbft/cometbft/types"
+	bcproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/blocksync"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 const (

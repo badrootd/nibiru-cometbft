@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
+	"github.com/badrootd/nibiru-cometbft/crypto/ed25519"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
 )
 
 var (

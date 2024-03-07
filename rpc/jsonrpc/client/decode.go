@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
+	types "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/types"
 )
 
 func unmarshalResponseBytes(

@@ -3,7 +3,7 @@ package fuzz_test
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/libs/pubsub/query"
+	"github.com/badrootd/nibiru-cometbft/libs/pubsub/query"
 )
 
 func Fuzz(data []byte) int {

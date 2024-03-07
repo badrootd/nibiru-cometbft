@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	flow "github.com/cometbft/cometbft/libs/flowrate"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/types"
+	flow "github.com/badrootd/nibiru-cometbft/libs/flowrate"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 /*

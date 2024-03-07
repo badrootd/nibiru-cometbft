@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/light/provider"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 // The detector component of the light client detects and handles attacks on the light client.

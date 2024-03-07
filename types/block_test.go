@@ -15,16 +15,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/bits"
-	"github.com/cometbft/cometbft/libs/bytes"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	cmttime "github.com/cometbft/cometbft/types/time"
-	"github.com/cometbft/cometbft/version"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto/merkle"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	"github.com/badrootd/nibiru-cometbft/libs/bits"
+	"github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	cmtversion "github.com/badrootd/nibiru-cometbft/proto/tendermint/version"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 func TestMain(m *testing.M) {

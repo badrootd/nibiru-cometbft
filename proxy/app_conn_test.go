@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/abci/server"
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
+	abcicli "github.com/badrootd/nibiru-cometbft/abci/client"
+	"github.com/badrootd/nibiru-cometbft/abci/example/kvstore"
+	"github.com/badrootd/nibiru-cometbft/abci/server"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
 )
 
 //----------------------------------------

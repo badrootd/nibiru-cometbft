@@ -5,7 +5,7 @@ import (
 	mrand "math/rand"
 	"time"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
 )
 
 const (

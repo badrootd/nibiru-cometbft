@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
 )
 
 // ValidateTime does a basic time validation ensuring time does not drift too

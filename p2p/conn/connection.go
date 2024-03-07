@@ -14,14 +14,14 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	flow "github.com/cometbft/cometbft/libs/flowrate"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/libs/protoio"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/libs/timer"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	flow "github.com/badrootd/nibiru-cometbft/libs/flowrate"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	"github.com/badrootd/nibiru-cometbft/libs/protoio"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	"github.com/badrootd/nibiru-cometbft/libs/timer"
+	tmp2p "github.com/badrootd/nibiru-cometbft/proto/tendermint/p2p"
 )
 
 const (

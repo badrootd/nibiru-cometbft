@@ -11,18 +11,18 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
-	mpmocks "github.com/cometbft/cometbft/mempool/mocks"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/proxy"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	cfg "github.com/badrootd/nibiru-cometbft/config"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	mpmocks "github.com/badrootd/nibiru-cometbft/mempool/mocks"
+	"github.com/badrootd/nibiru-cometbft/p2p"
+	"github.com/badrootd/nibiru-cometbft/proxy"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	"github.com/badrootd/nibiru-cometbft/store"
+	"github.com/badrootd/nibiru-cometbft/types"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
 )
 
 var config *cfg.Config

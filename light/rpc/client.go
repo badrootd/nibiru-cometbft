@@ -10,15 +10,15 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	service "github.com/cometbft/cometbft/libs/service"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/crypto/merkle"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	service "github.com/badrootd/nibiru-cometbft/libs/service"
+	rpcclient "github.com/badrootd/nibiru-cometbft/rpc/client"
+	ctypes "github.com/badrootd/nibiru-cometbft/rpc/core/types"
+	rpctypes "github.com/badrootd/nibiru-cometbft/rpc/jsonrpc/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

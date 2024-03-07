@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cometbft/cometbft/abci/example/code"
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/version"
+	"github.com/badrootd/nibiru-cometbft/abci/example/code"
+	abci "github.com/badrootd/nibiru-cometbft/abci/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 const appVersion = 1

@@ -9,16 +9,16 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/libs/protoio"
-	"github.com/cometbft/cometbft/libs/tempfile"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto/ed25519"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtjson "github.com/badrootd/nibiru-cometbft/libs/json"
+	cmtos "github.com/badrootd/nibiru-cometbft/libs/os"
+	"github.com/badrootd/nibiru-cometbft/libs/protoio"
+	"github.com/badrootd/nibiru-cometbft/libs/tempfile"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/types"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
 )
 
 // TODO: type ?

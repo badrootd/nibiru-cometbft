@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
 
-	"github.com/cometbft/cometbft/libs/pubsub"
-	"github.com/cometbft/cometbft/libs/pubsub/query"
+	"github.com/badrootd/nibiru-cometbft/libs/pubsub"
+	"github.com/badrootd/nibiru-cometbft/libs/pubsub/query"
 )
 
 func TestExample(t *testing.T) {

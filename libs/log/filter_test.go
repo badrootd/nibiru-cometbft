@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
 )
 
 func TestVariousLevels(t *testing.T) {

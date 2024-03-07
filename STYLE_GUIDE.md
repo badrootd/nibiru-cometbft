@@ -76,7 +76,7 @@ Sometimes it's necessary to rename libraries to avoid naming collisions or ambig
 * Use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports)
 * Separate imports into blocks - one for the standard lib, one for external libs and one for application libs.
 * Here are some common library labels for consistency:
-    * dbm "github.com/cometbft/cometbft-db"
+    * dbm "github.com/badrootd/nibiru-db"
     * cmtcmd "github.com/cometbft/cometbft/cmd/cometbft/commands"
     * cmtcfg "github.com/cometbft/cometbft/config"
     * cmttypes "github.com/cometbft/cometbft/types"

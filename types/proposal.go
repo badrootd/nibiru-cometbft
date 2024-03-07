@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	"github.com/badrootd/nibiru-cometbft/libs/protoio"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	cmttime "github.com/badrootd/nibiru-cometbft/types/time"
 )
 
 var (

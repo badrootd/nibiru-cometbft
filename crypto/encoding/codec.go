@@ -3,11 +3,11 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/crypto/secp256k1"
-	"github.com/cometbft/cometbft/libs/json"
-	pc "github.com/cometbft/cometbft/proto/tendermint/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto/ed25519"
+	"github.com/badrootd/nibiru-cometbft/crypto/secp256k1"
+	"github.com/badrootd/nibiru-cometbft/libs/json"
+	pc "github.com/badrootd/nibiru-cometbft/proto/tendermint/crypto"
 )
 
 func init() {

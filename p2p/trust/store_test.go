@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
 )
 
 func TestTrustMetricStoreSaveLoad(t *testing.T) {

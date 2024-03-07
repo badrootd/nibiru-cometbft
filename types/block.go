@@ -10,16 +10,16 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	gogotypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	"github.com/cometbft/cometbft/version"
+	"github.com/badrootd/nibiru-cometbft/crypto"
+	"github.com/badrootd/nibiru-cometbft/crypto/merkle"
+	"github.com/badrootd/nibiru-cometbft/crypto/tmhash"
+	"github.com/badrootd/nibiru-cometbft/libs/bits"
+	cmtbytes "github.com/badrootd/nibiru-cometbft/libs/bytes"
+	cmtmath "github.com/badrootd/nibiru-cometbft/libs/math"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	cmtversion "github.com/badrootd/nibiru-cometbft/proto/tendermint/version"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 const (

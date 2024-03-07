@@ -6,12 +6,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/libs/service"
+	"github.com/badrootd/nibiru-cometbft/libs/cmap"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/libs/service"
 	"github.com/cosmos/gogoproto/proto"
 
-	cmtconn "github.com/cometbft/cometbft/p2p/conn"
+	cmtconn "github.com/badrootd/nibiru-cometbft/p2p/conn"
 )
 
 //go:generate ../scripts/mockery_generate.sh Peer

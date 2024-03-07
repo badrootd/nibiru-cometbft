@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strconv"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 	"github.com/cosmos/gogoproto/proto"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtstore "github.com/cometbft/cometbft/proto/tendermint/store"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
+	cmtstore "github.com/badrootd/nibiru-cometbft/proto/tendermint/store"
+	cmtproto "github.com/badrootd/nibiru-cometbft/proto/tendermint/types"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 /*

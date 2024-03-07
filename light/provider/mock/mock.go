@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/light/provider"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 type Mock struct {

@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/light"
-	"github.com/cometbft/cometbft/light/provider"
-	mockp "github.com/cometbft/cometbft/light/provider/mock"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	"github.com/badrootd/nibiru-cometbft/light"
+	"github.com/badrootd/nibiru-cometbft/light/provider"
+	mockp "github.com/badrootd/nibiru-cometbft/light/provider/mock"
+	dbs "github.com/badrootd/nibiru-cometbft/light/store/db"
+	"github.com/badrootd/nibiru-cometbft/types"
 )
 
 const (

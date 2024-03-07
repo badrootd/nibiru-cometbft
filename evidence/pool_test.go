@@ -9,18 +9,18 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cometbft/cometbft-db"
+	dbm "github.com/badrootd/nibiru-db"
 
-	"github.com/cometbft/cometbft/evidence"
-	"github.com/cometbft/cometbft/evidence/mocks"
-	"github.com/cometbft/cometbft/internal/test"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	sm "github.com/cometbft/cometbft/state"
-	smmocks "github.com/cometbft/cometbft/state/mocks"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/badrootd/nibiru-cometbft/evidence"
+	"github.com/badrootd/nibiru-cometbft/evidence/mocks"
+	"github.com/badrootd/nibiru-cometbft/internal/test"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	cmtversion "github.com/badrootd/nibiru-cometbft/proto/tendermint/version"
+	sm "github.com/badrootd/nibiru-cometbft/state"
+	smmocks "github.com/badrootd/nibiru-cometbft/state/mocks"
+	"github.com/badrootd/nibiru-cometbft/store"
+	"github.com/badrootd/nibiru-cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/version"
 )
 
 func TestMain(m *testing.M) {

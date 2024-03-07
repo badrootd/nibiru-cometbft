@@ -3,7 +3,7 @@ package p2p
 import (
 	"net"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	cmtsync "github.com/badrootd/nibiru-cometbft/libs/sync"
 )
 
 // IPeerSet has a (immutable) subset of the methods of PeerSet.

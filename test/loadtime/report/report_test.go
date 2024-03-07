@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/test/loadtime/payload"
-	"github.com/cometbft/cometbft/test/loadtime/report"
-	"github.com/cometbft/cometbft/types"
+	"github.com/badrootd/nibiru-cometbft/test/loadtime/payload"
+	"github.com/badrootd/nibiru-cometbft/test/loadtime/report"
+	"github.com/badrootd/nibiru-cometbft/types"
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

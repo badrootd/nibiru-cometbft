@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
+	"github.com/badrootd/nibiru-cometbft/abci/types"
+	cmtrand "github.com/badrootd/nibiru-cometbft/libs/rand"
 )
 
 // RandVal creates one random validator, with a key derived

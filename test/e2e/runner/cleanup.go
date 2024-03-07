@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cometbft/cometbft/libs/log"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
+	"github.com/badrootd/nibiru-cometbft/libs/log"
+	e2e "github.com/badrootd/nibiru-cometbft/test/e2e/pkg"
 )
 
 // Cleanup removes the Docker Compose containers and testnet directory.
